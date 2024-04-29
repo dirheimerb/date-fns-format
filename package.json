@@ -18,6 +18,15 @@
     "format",
     "options"
   ],
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirheimerb/date-fns-format"
+  },
+  "bugs": {
+    "url": "https://github.com/dirheimerb/date-fns-format/issues"
+  },
+
   "author": "Bradley Dirheimer",
   "license": "MIT",
   "devDependencies": {
