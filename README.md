@@ -21,11 +21,6 @@ First, ensure that you have `date-fns` installed in your project. If not, you ca
 npm install date-fns
 ```
 
-Then, incorporate the `DateFormat` enum into your project:
-
-1. Create a file named `DateFormat.ts` in your utilities or constants folder.
-2. Copy and paste the TypeScript enum code provided [above](#enum-definition).
-
 ## Usage
 
 Here’s how to use the `DateFormat` enum in your project:
@@ -36,7 +31,7 @@ Import the enum and the `format` function from `date-fns` wherever you need to f
 
 ```typescript
 import { format } from 'date-fns';
-import { DateFormat } from './path/to/DateFormat';
+import { DateFormat } from 'date-fns-format';
 
 const today = new Date();
 const formattedDate = format(today, DateFormat.YearFourDigits);
